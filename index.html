@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Put All Your Eggs in One Omelet Day</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Don't Put All Your Eggs in One Omelet Day</h1>
+    </header>
+    <div class="game-container">
+        <img src="images/basket.webp" id="basket" alt="Basket" />
+        <div id="egg-container">
+            <img src="images/egg.png" id="egg1" class="draggable" alt="Egg 1" />
+            <img src="images/egg.png" id="egg2" class="draggable" alt="Egg 2" />
+            <img src="images/egg.png" id="egg3" class="draggable" alt="Egg 3" />
+            <img src="images/egg.png" id="egg4" class="draggable" alt="Egg 4" />
+            <img src="images/egg.png" id="egg5" class="draggable" alt="Egg 5" />
+            <img src="images/egg.png" id="egg6" class="draggable" alt="Egg 6" />
+        </div>
+        <div id="locations">
+            <img src="images/location1.png" id="location1" class="location" alt="Location 1" />
+            <img src="images/location1.png" id="location2" class="location" alt="Location 2" />
+            <img src="images/location1.png" id="location3" class="location" alt="Location 3" />
+            <img src="images/location1.png" id="location4" class="location" alt="Location 4" />
+            <img src="images/location1.png" id="location5" class="location" alt="Location 5" />
+            <img src="images/location1.png" id="location6" class="location" alt="Location 6" />
+        </div>
+    </div>
+    <div id="timer">Time: <span id="time">0</span> seconds</div>
+    <div id="inPlace">Eggs: <span id="eggsInPlace">0</span> Eggs</div>
+    <button onclick="resetGame()">Reset Game</button>
+</body>
+</html>
